@@ -1,0 +1,72 @@
+.Joke {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.Joke-container{
+  padding: 1rem;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+.Joke-container:hover{
+  background-color: #f2f4f5;
+}
+
+.Joke:not(:last-child){
+  border-bottom: 1px solid #0000001a;
+}
+
+.Joke-locked {
+  background-color: #ccc;
+}
+
+.Joke-votearea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: top;
+  width: 90px;
+  background-color: #eaedef;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.Joke-votearea button {
+  height: 32px;
+  width: 32px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.Joke-votearea button:hover {
+  /* background-color: #dbdbdb; */
+  background-color: #e2e7e9;
+}
+
+.upvote{
+  color: #000000;
+}
+.upvote:hover{
+  color: #6a5cff;
+}
+.downvote{
+  color: #000000;
+}
+
+.downvote:hover{
+  color: #d93a00;
+}
+
+.Joke-text {
+  display: inline-block;
+  padding: 1rem 0;
+}
+
+.fw {
+  font-weight: 400 !important;
+}

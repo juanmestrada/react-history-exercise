@@ -1,0 +1,50 @@
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+.loading {
+  width: 4em;
+  margin: 200px auto 0 auto;
+  color: tomato;
+}
+
+.JokeList-getmore-container{
+  text-align: end;
+}
+.JokeList-getmore {
+  margin: 1em 0;
+  font-size: 150%;
+  border-radius: 0.5em;
+  background-color: tomato;
+  color: white;
+}
+
+.JokeList-getmore:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.JokeList{
+  
+  margin: auto
+}
+
+@media (max-width: 576px) {
+  .JokeList{
+    width: 100%;
+  }
+
+  .JokeList-getmore-container {
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width: 577px) {
+  .JokeList{
+    width: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  .JokeList{
+    width: 50%;
+  }
+}
